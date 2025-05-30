@@ -7,9 +7,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  background-color: rgb(133, 51, 7); 
-  color: white;
+body.light {
+  background-color: rgb(205, 128, 86); 
+  color: rgb(24, 23, 23);
+}
+body.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
 }
 
 .navbar {
