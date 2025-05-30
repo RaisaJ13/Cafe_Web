@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgb(133, 51, 7); 
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(240, 215, 197); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  font-family: 'Miniver', cursive;
+  font-size: 2.2rem;
+  color: #1c1c1c;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: rgb(60, 40, 20);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: rgb(98, 59, 4);
+}
+
+.login-btn {
+  padding: 0.6rem 1.2rem;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  color: #333;
+}
+
+.login-btn:hover {
+  background-color: #eee;
+}
