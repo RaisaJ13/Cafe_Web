@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom'
 
 export default function Login() {
   return (
-    <div ><h1>Login</h1>
+    <div >
      <div className='login-container' >
+      <h1>Login</h1>
       <form action="form">
         <div>
           <label htmlFor="text">Email</label>
@@ -17,7 +18,7 @@ export default function Login() {
         <p>Don't have account?
           <Link to="/register"><u>Register</u></Link>
         </p>
-        <Link to ="/home">
+        <Link to ="/">
         <button>Submit</button>
         </Link>
       </form>

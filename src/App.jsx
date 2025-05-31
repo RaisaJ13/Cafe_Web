@@ -27,7 +27,7 @@ function App() {
         </h1>
         <ul className='nav-menu'>
           <li className='nav-item'>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
         </ul>
         <ul className='nav-menu'>
@@ -47,7 +47,7 @@ function App() {
       </div>
       <>
         <Routes>
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutUS />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/login" element={<Login />} />
